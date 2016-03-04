@@ -10,5 +10,5 @@ sudo apt-get --yes update &&
 sudo apt-get install --yes docker-engine  && 
 sudo service docker start && 
 apt-get install --yes curl  && 
-curl -L httpsgithub.comdockercomposereleasesdownload1.6.2docker-compose-`uname -s`-`uname -m`  usrlocalbindocker-compose && 
+curl -L https://github.comdockercomposereleasesdownload1.6.2docker-compose-`uname -s`-`uname -m`  usrlocalbindocker-compose && 
 chmod +x usrlocalbindocker-compose 
